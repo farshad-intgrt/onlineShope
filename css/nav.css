@@ -1,0 +1,27 @@
+.nav{
+    width: 100%;
+    padding: 7px 5px;
+    color: #7158e2;
+    margin: 0px;
+    font-weight: bold;
+    background-color: #ffaf40;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.nav .right-nav{
+    margin-left: auto;
+}
+
+.nav a{
+    margin: 1px 3px;
+}
+.nav .login{
+    align-self: center;
+    text-decoration: none;
+    border: 1px solid #7158e2;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
