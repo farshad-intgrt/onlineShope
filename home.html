@@ -46,18 +46,27 @@
                 <!-- hitOffer end -->
                 <!-- slider start -->
                 <div class="slider">
-                    <div class="item">
-                        <img src="./images/sliders/s1.jpg" alt="">
-                        <span>Listen Beyond the track Feel The Pulse</span>
+                    <div class="slides">
+                        <!-- slides start -->
+                        <div class="item active" id="slide1">
+                            <img src="./images/sliders/s1.jpg" alt="">
+                            <span style="bottom: 70%; ">Listen Beyond the track Feel The Pulse</span>
+                        </div>
+                        <div style="color: white;" class="item" id="slide2">
+                            <img  src="./images/sliders/s2.jpg" alt="">
+                            <span style="bottom:15% ; ">The Sound Quality you've Always Chased is finally HERE </span>
+                        </div>
+                        <div class="item" id="slide3">
+                            <img src="./images/sliders/s3.jpg" alt="">
+                            <span style="bottom: 80%; ">Listen To Your Dreams. NOt in silence, but in Full Volume</span>
+                        </div> 
+                        <!-- slides end -->  
                     </div>
-                    <div class="item">
-                        <img src="./images/sliders/s2.jpg" alt="">
-                        <span>The Sound Quality you've Always Chased is finally HERE </span>
-                    </div>
-                    <div class="item">
-                        <img src="./images/sliders/s3.jpg" alt="">
-                        <span>Listen To Your Dreams. NOt in silence, but in Full Volume</span>
-                    </div>
+                    <div class="btns">
+                        <i onclick="setSlide('slide1',1)" class="fa-solid fa-circle"></i>
+                        <i onclick="setSlide('slide2',2)" class="fa-solid fa-circle"></i>
+                        <i onclick="setSlide('slide3',3)" class="fa-solid fa-circle"></i>
+                    </div> 
                 </div>
                 <!-- slider end -->
             </section>
@@ -404,5 +413,9 @@
         </div>
         <!-- footer end -->
     </div>
+
+
+    
+     <script src="./js/main.js"></script> 
 </body>
 </html>

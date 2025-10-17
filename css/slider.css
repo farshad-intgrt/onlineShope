@@ -1,0 +1,37 @@
+.slider{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.slides .item{
+    position: relative;
+    display: none;
+
+}
+
+.slides .active{
+    display: block;
+}
+.slides .item>img{
+    width: 100%;
+}
+.slides .item>span{
+    position: absolute;
+    right: 2px;
+    z-index: 1;
+    right: 10px;
+}
+.slider .btns{
+    position:absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    z-index: 1;
+}
+.slider .btns i{
+    margin-left:5px ;
+}
+.slider .btns i:hover{
+    color: rgba(255,255,255,0.3);
+    cursor: pointer;
+}
